@@ -24,21 +24,21 @@
 
     <!--Navbar section-->
     <nav class="navbar navbar-expand-lg pt-5">
-      <div class="container justify-content-between align-items-center px-5">
+      <div class="container justify-content-center align-items-center px-5">
         <div class="navbar_brand ">
           <h2><a class="navbar-brand " href="#"><img
-                src="./images/rki-low-resolution-logo-color-on-transparent-background.png" alt="Riki´s Logo" width="70"
+                src="./images/rki-low-resolution-logo-color-on-transparent-background.png" alt="Riki´s Logo" class="w-100"
                 ></a></h2>
         </div>
 
-        <div class="navbar_btn">
+        <div class="navbar_btn position-fixed">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-unstyled ">
               <li class="nav-item">
                 <a class="nav-link" href="#about">About Me</a>
               </li>
@@ -60,11 +60,11 @@
 
     <!--Welcome section-->
     <section id="welcome" class="welcome">
-      <div class="welcome_container container d-flex flex-column align-items-center pt-3 ">
-        <h1 class="welcome_title">Frontend Developer</h1>
-        <h2 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odit obcaecati. </h2>
-        <div class="welcome_picture pt-5">
-          <img src="./images/undraw_heatmap_uyye test1.png" alt="" width="400">
+      <div class="welcome_container container d-flex flex-column align-items-center mt-5  ">
+        <h1 class="welcome_title display-3 fw-bold text-center">Frontend Developer</h1>
+        <h2 class="text-center display-6 fw-normal ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odit obcaecati. </h2>
+        <div class="welcome_picture mt-5">
+          <img src="./images/undraw_heatmap_uyye test1.png" alt="A frontend developer" class="w-100" >
           
         </div>
       </div>
@@ -74,8 +74,8 @@
     <!--About me section-->
     <section class="about bg-success py-5" id="about">
       <div class="about_container container  d-flex flex-column align-items-center text-white my-5">
-        <h2 class="about_title">Hi,Im Riki.Welcome to my World</h2>
-        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sed consequatur harum, doloremque sit quam
+        <h2 class="about_title display-5 fw-bold text-center mb-4">Hi,Im Riki.Welcome to my World</h2>
+        <p class="text-center fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sed consequatur harum, doloremque sit quam
           voluptatem accusantium iusto expedita itaque quasi autem quaerat cupiditate. Ipsa aliquid quos reiciendis
           accusantium recusandae!</p>
       </div>
@@ -96,20 +96,20 @@
         </div>
 
 
-        <h2 class="stack_title ">
+        <h2 class="stack_title display-6 fw-bold">
           Frontend Developer
         </h2>
 
-        <p class="stack_description text-center">
+        <p class="stack_description text-center fs-6">
           Lorem ipsum dolor sit amet consectetur adipisicing elite.
         </p>
 
-        <h2 class="stack_subtitle-languages">Languages I speak:</h2>
+        <h2 class="stack_subtitle-languages display-6 fw-bold fs-2">Languages I speak:</h2>
 
-        <p class="stack_description-languages">Html,Css,JS,Sass,Git</p>
+        <p class="stack_description-languages fs-6">Html,Css,JS,Sass,Git</p>
 
-        <h2 class="stack_subtitle-devtools">Dev Tools:</h2>
-        <ul class="stack_devtools-list p-0">
+        <h2 class="stack_subtitle-devtools display-6 fw-bold fs-2">Dev Tools:</h2>
+        <ul class="stack_devtools-list p-0 list-unstyled fs-6">
           <li class="devtool_item-vscode">VSCode</li>
           <li class="devtool_item-react">React.js</li>
           <li class="devtool_item-bootstrap">Bootstrap</li>
@@ -126,16 +126,25 @@
     </section>
 
     <!--Projects section-->
+
     <section id="projects" class="projects  py-5  border-top ">
       <div class="projects_container container d-flex flex-column align-items-center">
-        <h2 class="h2 my-5">These are my projects</h2>
+        <h2 class="projects_title my-5 display-6 fw-bold">These are my projects</h2>
+
         <!--Projects container-->
+
         <div class="grid_projects_container ">
+
           <!--Container row-->
+
           <div class="row g-5">
+          
             <!--Specific project container-->
+          
             <div class="col-lg-4 d-flex flex-column align-items-center">
+          
               <!--Card-->
+          
               <div class="ih-item square effect6 bottom_to_top"><a href="#">
                   <div class="img"><img src="./images/photo_4979088091297983073_w.jpg"
                       alt="Random Quotes Machine image"></div>
@@ -197,10 +206,10 @@
           >
         </div>
 
-        <p class="text-center text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ex.</p>
+        <p class="text-center text-white fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ex.</p>
 
 
-        <ul class="container mt-5 contact_list d-flex justify-content-center">
+        <ul class="container mt-5 contact_list d-flex justify-content-center list-unstyled">
           <li class="contact_github mx-3 ">
 
             <a href="#" class="btn text-white border rounded-circle border-white p-3">
