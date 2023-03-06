@@ -26,18 +26,15 @@ body{
 }
 
 
-
-
-/*Navbar*/
 .logo{
     width: 4.375rem;
 }
 
+/*Navbar*/
+
+
 .navbar_btn{
-    bottom: 50px;
-    right: 30px;
-    background-color: #00BFA6 !important;
-    border-radius: 100px;
+    
     z-index: 1000000000;
 }
 
