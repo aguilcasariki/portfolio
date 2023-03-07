@@ -58,3 +58,9 @@ html{
 .stack_icon_wrapper{
     background-color: #00BFA6 !important;
 }
+
+.stack_container{
+    margin-top: -130px;
+    z-index: 1000000;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
