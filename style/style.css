@@ -38,6 +38,10 @@ html{
     z-index: 100;
 }
 
+.menu_btn{
+    box-shadow: 0 0 8px 4px rgb(0 0 0 / 16%);
+}
+
 .navbar-toggler:focus{
     box-shadow: none;
 }
