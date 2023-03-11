@@ -69,5 +69,9 @@ html{
 /*Projects section*/
 
 .card_container{
-    border-bottom:1px solid black;
+    border-bottom:1px solid rgba(156, 157, 157, 0.5);
+}
+
+.card-img-top{
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
 }
