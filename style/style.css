@@ -68,3 +68,10 @@ html{
     border-bottom:1px solid rgba(156, 157, 157, 0.5);
 }
 
+
+/*Projects section*/
+
+ /*Email container*/
+ .contact_container-email{
+    border-color: rgba(156, 157, 157, 0.5) !important;
+ }
